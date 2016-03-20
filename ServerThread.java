@@ -56,5 +56,4 @@ public class ServerThread extends ServerSocket{
 		new ServerThread();
 	}
 	//下面测试tag
-	git branch tagName
 }
