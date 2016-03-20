@@ -7,6 +7,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
+    /*这是version 2
+   使用Socket需要主要的几点如下：
+
+   */
    public static void main(String[] args) {
       try {
          ServerSocket ss = new ServerSocket(8888);
