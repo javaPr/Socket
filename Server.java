@@ -32,4 +32,7 @@ public class Server {
    /* 当然这里添加的代码也是没有用处的
    仅仅是为了测试的！！！
    */
+   public int add(int i,int y){
+      return i+y;
+   }
 }
