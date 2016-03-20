@@ -5,7 +5,7 @@ public class ServerThread extends ServerSocket{
 	private static final int SERVER_PORT  = 10000;
 	static int num = 0;
 	public ServerThread() throws IOException{
-		super(SERVER_PORT);//这里使用父类的构造方法
+		super(SERVER_PORT);
 		try{
 			while(true){
 				Socket socket = accept();
