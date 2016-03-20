@@ -17,8 +17,8 @@ public class Client {
          OutputStream os = s.getOutputStream();
          
          BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
-         //向服务器端发送一条消息
-         bw.write("测试客户端和服务器通信，服务器接收到消息返回到客户端\n");
+       //向服务器端发送一条消息
+         bw.write("测试客户端和服务器通信，服务器接收到消息返回到客户端\n");  //向服务器端发送一条消息
          bw.flush();
          
          //读取服务器返回的消息
